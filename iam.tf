@@ -16,7 +16,7 @@ resource "aws_iam_role" "lambda_exec_role" {
 resource "aws_iam_policy" "lambda_logging_policy" {
   name        = "lambda_logging_policy"
   description = "IAM policy for Lambda logging to CloudWatch"
-  
+
   policy = jsonencode({
     Version = "2012-10-17"
     Statement = [

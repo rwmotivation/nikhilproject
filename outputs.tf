@@ -1,4 +1,6 @@
 output "api_url" {
-  description = "Public URL of the HTTP API Gateway"
-  value       = aws_apigateway2_api.http_api.api_endpoint
+  value = aws_apigatewayv2_api.http_api.api_endpoint
+}
+output "lambda_function_name" {
+  value = aws_lambda_function.welcome_lambda.function_name
 }
