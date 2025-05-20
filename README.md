@@ -77,7 +77,7 @@ cdx-eval/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/cdx-eval.git
+git clone https://github.com/rwmotivation/nikhilproject.git
 cd cdx-eval
 
 ## 2. Initialize Terraform
@@ -104,7 +104,7 @@ After deployment, Terraform will output a public **API Gateway URL**. Open it in
 
 ```markdown
 
-https://xyz123abc.execute-api.us-east-1.amazonaws.com/
+"https://u62rfo80c0.execute-api.us-east-1.amazonaws.com"
 ```
 
 You should see:
