@@ -1,4 +1,7 @@
+#Outputs:
 
+api_url = "https://u62rfo80c0.execute-api.us-east-1.amazonaws.com"
+lambda_function_name = "welcome_lambda_function"
 # CDX Platform Engineer Evaluation – AWS DevOps Project
 
 ```markdown
